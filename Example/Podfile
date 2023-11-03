@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZMXTChatTest_Example' do
+  pod 'ZMXTChatTest', :path => '../'
+
+  target 'ZMXTChatTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
