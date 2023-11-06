@@ -10,7 +10,7 @@
 
 @implementation ZMXTPeson
 + (void)testDemo {
-    NSLog(@"TestDemo");
+    NSLog(@"TestDemo1111");
 }
 
 @end

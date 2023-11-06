@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F3AC052EFE1220013849884 /* Pods_ZMXTChatTest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCCC252FECA55F396CB96AC /* Pods_ZMXTChatTest_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		684E45CB27680819EEA464B5 /* libPods-ZMXTChatTest_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F00249A1A22113AAEDB8A3 /* libPods-ZMXTChatTest_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B5F8529C97A69969A7A0AA3A /* Pods_ZMXTChatTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000B6870A70AC094EFE7FDF /* Pods_ZMXTChatTest_Example.framework */; };
 		EAC8627E2AF4F8AB003896A0 /* ZMXTPeson.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC8627D2AF4F8AB003896A0 /* ZMXTPeson.m */; };
 /* End PBXBuildFile section */
 
@@ -38,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0000B6870A70AC094EFE7FDF /* Pods_ZMXTChatTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMXTChatTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA000DFFB35B15812E3A895 /* Pods-ZMXTChatTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMXTChatTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZMXTChatTest_Example/Pods-ZMXTChatTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		11E208A4113526C6DFB7426E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2DB82AE209BEBBFB1DB243DA /* Pods-ZMXTChatTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMXTChatTest_Example.release.xcconfig"; path = "Target Support Files/Pods-ZMXTChatTest_Example/Pods-ZMXTChatTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		36FFBDE69F98982E8373AF76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		37F00249A1A22113AAEDB8A3 /* libPods-ZMXTChatTest_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZMXTChatTest_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZMXTChatTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMXTChatTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,11 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80BFFF0F49B363ED12FDDE97 /* ZMXTChatTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZMXTChatTest.podspec; path = ../ZMXTChatTest.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF8519171B6F597651D9B401 /* Pods-ZMXTChatTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMXTChatTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZMXTChatTest_Tests/Pods-ZMXTChatTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BF9059B3B01539D1612DBAA8 /* Pods-ZMXTChatTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMXTChatTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZMXTChatTest_Tests/Pods-ZMXTChatTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EAC8627C2AF4F8AB003896A0 /* ZMXTPeson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMXTPeson.h; sourceTree = "<group>"; };
 		EAC8627D2AF4F8AB003896A0 /* ZMXTPeson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMXTPeson.m; sourceTree = "<group>"; };
-		FCCCC252FECA55F396CB96AC /* Pods_ZMXTChatTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMXTChatTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +76,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B5F8529C97A69969A7A0AA3A /* Pods_ZMXTChatTest_Example.framework in Frameworks */,
+				684E45CB27680819EEA464B5 /* libPods-ZMXTChatTest_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +87,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3F3AC052EFE1220013849884 /* Pods_ZMXTChatTest_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,8 +121,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0000B6870A70AC094EFE7FDF /* Pods_ZMXTChatTest_Example.framework */,
-				FCCCC252FECA55F396CB96AC /* Pods_ZMXTChatTest_Tests.framework */,
+				37F00249A1A22113AAEDB8A3 /* libPods-ZMXTChatTest_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,8 +189,6 @@
 			children = (
 				0FA000DFFB35B15812E3A895 /* Pods-ZMXTChatTest_Example.debug.xcconfig */,
 				2DB82AE209BEBBFB1DB243DA /* Pods-ZMXTChatTest_Example.release.xcconfig */,
-				BF9059B3B01539D1612DBAA8 /* Pods-ZMXTChatTest_Tests.debug.xcconfig */,
-				BF8519171B6F597651D9B401 /* Pods-ZMXTChatTest_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -212,7 +204,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5A25A35D89CC1BDFEC45968D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,7 +218,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZMXTChatTest_Tests" */;
 			buildPhases = (
-				5BC9435439E263715797E0FD /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -316,46 +306,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ZMXTChatTest_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5A25A35D89CC1BDFEC45968D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZMXTChatTest_Example/Pods-ZMXTChatTest_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZMXTChatTest/ZMXTChatTest.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZMXTChatTest.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZMXTChatTest_Example/Pods-ZMXTChatTest_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5BC9435439E263715797E0FD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZMXTChatTest_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -529,7 +479,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF9059B3B01539D1612DBAA8 /* Pods-ZMXTChatTest_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -554,7 +503,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF8519171B6F597651D9B401 /* Pods-ZMXTChatTest_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
