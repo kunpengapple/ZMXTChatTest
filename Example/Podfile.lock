@@ -1,0 +1,16 @@
+PODS:
+  - ZMXTChatTest (0.1.0)
+
+DEPENDENCIES:
+  - ZMXTChatTest (from `../`)
+
+EXTERNAL SOURCES:
+  ZMXTChatTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZMXTChatTest: 5dac7d7b14c4a6ff3e89d67e7c21bc415d91c62e
+
+PODFILE CHECKSUM: 9a2ab65166d5a836a6e9606ec7590de032db6e6c
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,22 @@
+{
+  "name": "ZMXTChatTest",
+  "version": "0.1.0",
+  "summary": "A short description of ZMXTChatTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/songkunpeng/ZMXTChatTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "songkunpeng": "songkunpeng@elex-tech.com"
+  },
+  "source": {
+    "git": "https://github.com/songkunpeng/ZMXTChatTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZMXTChatTest/Classes/**/*"
+}
